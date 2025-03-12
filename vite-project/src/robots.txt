@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aw-sanitarne.vercel.app/sitemap.xml
