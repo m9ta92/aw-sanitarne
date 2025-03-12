@@ -186,8 +186,8 @@ body {
 
 .hero {
   color: white;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin: auto;
   text-align: center;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/src/img/hero.jpg');
@@ -196,7 +196,7 @@ body {
   background-size: cover;
 
   @media screen and (min-width: 768px) {
-    padding-top: 250px;
+    padding-top: 270px;
     padding-bottom: 270px;
   }
 
