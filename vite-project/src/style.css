@@ -251,6 +251,7 @@ body {
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .contact {
