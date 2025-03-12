@@ -4,6 +4,12 @@ const mobile = document.querySelector(".mobile-bg");
 const btnMobile = document.querySelector(".mobile-anchor");
 const mobileListItem = document.querySelectorAll(".mobile-list-item");
 
+window.onload = function () {
+  if (window.location.pathname !== "/") {
+    window.location.replace("/");
+  }
+};
+
 // MobileMenu
 btnBurger.addEventListener("click", () => {
   mobile.classList.add("is-open");
