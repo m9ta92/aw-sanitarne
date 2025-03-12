@@ -18,8 +18,8 @@
 </head>
 
 <body>
-  <header>
-    <div class="header container">
+  <header class="header">
+    <div class="header-wrapper container">
       <a href="">
         <img src="/src/img/logo.png" alt="logo" width="180px">
       </a>
@@ -52,7 +52,39 @@
           </li>
         </ul>
       </address>
-    </div>
+      <button class="header-burger-button" type="button" aria-label="open menu">
+        <svg class="svg-burger" width="28" height="28">
+          <use href="/src/img/sprite.svg#burger"></use>
+        </svg>
+      </button>
+
+      <!-- ====================== MOBILE MENU ==================== -->
+      <div class="mobile-bg">
+        <div class="mobile">
+          <button class="mobile-menu-close" type="button" aria-label="close menu">
+            <svg class="svg-close" width="28" height="28">
+              <use href="/src/img/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-list">
+            <li class="mobile-list-item">
+              <a class="header-nav-link" href="#hero">Strona główna</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="header-nav-link" href="#about">O nas</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="header-nav-link" href="#services">Usługi</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="header-nav-link" href="#gallery">Galeria</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="header-nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
   </header>
   <main>
     <section id="hero" class="hero">
@@ -150,6 +182,8 @@
       </div>
     </section>
   </main>
+
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
